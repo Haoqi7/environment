@@ -1,0 +1,10 @@
+pyinstaller --noconsole --onefile \
+--add-data "cs.py;." \
+--add-data "data.py;." \
+--hidden-import sklearn.utils._cython_blas \
+--hidden-import sklearn.neighbors.typedefs \
+--hidden-import scipy._lib.messagestream \
+--collect-all matplotlib \
+--collect-all scipy \
+--collect-all sklearn \
+launcher.py
