@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # 环境数据分析工具
 
 ![应用图标](app.ico)  
@@ -49,7 +49,7 @@ python launcher.py
 
 # 直接运行环境分析工具
 python cs.py
-```
+
 
 ## 界面操作指南
 
