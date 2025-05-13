@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/b754dd46-f10b-4a45-86e1-a7a37d5cdbb4)
 
 
 # 环境数据分析工具
@@ -67,8 +67,6 @@ python cs.py
    - 支持自定义保存路径
    - 实时显示处理进度
 
-![界面截图](https://via.placeholder.com/800x500/EEE?text=GUI+Preview)
-
 
 
 ### 打包为EXE
@@ -99,7 +97,7 @@ MIT License © 2023 [Haoqi7]
 
 ## 技术支持
 遇到问题请提交Issue
-```
+
 
 ---
 
