@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b754dd46-f10b-4a45-86e1-a7a37d5cdbb4)
+
 
 
 # 环境数据分析工具
@@ -68,6 +68,9 @@ python cs.py
    - 实时显示处理进度
 
 
+![image](https://github.com/user-attachments/assets/498fde07-a932-40e1-b48e-d19d14b77e23)
+![image](https://github.com/user-attachments/assets/f0a66627-bb6b-40d6-afdf-47dc44c47a73)
+![image](https://github.com/user-attachments/assets/c94d59ad-17ad-4407-a64f-4147164884af)
 
 ### 打包为EXE
 ```bash
