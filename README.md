@@ -49,7 +49,7 @@ python launcher.py
 
 # 直接运行环境分析工具
 python cs.py
-
+```
 
 ## 界面操作指南
 
@@ -69,28 +69,19 @@ python cs.py
 
 ![界面截图](https://via.placeholder.com/800x500/EEE?text=GUI+Preview)
 
-## 高级配置
 
-### 修改图表样式
-编辑`cs.py`中的`默认配置`：
-```python
-默认配置 = AppConfig(
-    图表样式={
-        'figure.figsize': (12, 6),  # 图表尺寸
-        'figure.dpi': 300,          # 分辨率
-        'axes.grid': True,          # 网格线
-        'font.size': 12             # 字体大小
-    },
-    # ... 其他配置
-)
-```
 
 ### 打包为EXE
 ```bash
 pyinstaller --noconsole --onefile \
---icon=app.ico \
 --add-data "cs.py;." \
 --add-data "data.py;." \
+--hidden-import sklearn.utils._cython_blas \
+--hidden-import sklearn.neighbors.typedefs \
+--hidden-import scipy._lib.messagestream \
+--collect-all matplotlib \
+--collect-all scipy \
+--collect-all sklearn \
 launcher.py
 ```
 
@@ -104,10 +95,10 @@ launcher.py
 5. 发起Pull Request
 
 ## 许可证
-MIT License © 2023 [Your Name]
+MIT License © 2023 [Haoqi7]
 
 ## 技术支持
-遇到问题请提交Issue，或联系：your.email@example.com
+遇到问题请提交Issue
 ```
 
 ---
